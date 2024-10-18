@@ -1,27 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "createportals",
   "version": "${version}",
-  "name": "Example Mod",
+  "name": "Create Portals",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "Mekelaina/AzuraA"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
   "license": "Insert License Here",
-  "icon": "assets/examplemod/icon.png",
+  "icon": "assets/createportals/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.examplemod.fabric.CreatePortalsFabric"
+      "com.mekelaina.createportals.fabric.CreatePortalsFabric"
     ]
   },
   "mixins": [
-    "examplemod.mixins.json",
-    "examplemod-common.mixins.json"
+    "createportals.mixins.json"
   ],
   "depends": {
     "minecraft": "${minecraft_version}",
