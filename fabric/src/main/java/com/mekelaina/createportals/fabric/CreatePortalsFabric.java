@@ -1,19 +1,19 @@
-package net.examplemod.fabric;
+package com.mekelaina.createportals.fabric;
 
 import io.github.fabricators_of_create.porting_lib.util.EnvExecutor;
-import net.examplemod.ExampleBlocks;
-import net.examplemod.ExampleMod;
+import com.mekelaina.createportals.CreatePortalsBlocks;
+import com.mekelaina.createportals.CreatePortals;
 import net.fabricmc.api.ModInitializer;
 
-public class ExampleModFabric implements ModInitializer {
+public class CreatePortalsFabric implements ModInitializer {
     @Override
     public void onInitialize() {
-        ExampleMod.init();
-        ExampleMod.LOGGER.info(EnvExecutor.unsafeRunForDist(
+        CreatePortals.init();
+        CreatePortals.LOGGER.info(EnvExecutor.unsafeRunForDist(
                 () -> () -> "{} is accessing Porting Lib on a Fabric client!",
                 () -> () -> "{} is accessing Porting Lib on a Fabric server!"
-                ), ExampleMod.NAME);
+                ), CreatePortals.NAME);
         // on fabric, Registrates must be explicitly finalized and registered.
-        ExampleBlocks.REGISTRATE.register();
+        CreatePortalsBlocks.REGISTRATE.register();
     }
 }

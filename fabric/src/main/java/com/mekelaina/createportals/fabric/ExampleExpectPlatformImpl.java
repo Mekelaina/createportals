@@ -1,4 +1,4 @@
-package net.examplemod.fabric;
+package com.mekelaina.createportals.fabric;
 
 import net.fabricmc.loader.api.FabricLoader;
 

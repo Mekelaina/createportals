@@ -1,4 +1,4 @@
-package net.examplemod;
+package com.mekelaina.createportals;
 
 import dev.architectury.injectables.annotations.ExpectPlatform;
 
