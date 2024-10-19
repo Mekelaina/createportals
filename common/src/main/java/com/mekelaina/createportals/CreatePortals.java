@@ -13,7 +13,7 @@ public class CreatePortals {
 
     public static void init() {
         LOGGER.info("{} initializing! Create version: {} on platform: {}", NAME, Create.VERSION, ExampleExpectPlatform.platformName());
-        CreatePortalsBlocks.init(); // hold registrate in a separate class to avoid loading early on forge
+        CPBlocks.init(); // hold registrate in a separate class to avoid loading early on forge
     }
 
     public static ResourceLocation id(String path) {
