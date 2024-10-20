@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "createportals:block/portal_casing",
+    "side": "createportals:block/portal_casing_side"
+  }
+}

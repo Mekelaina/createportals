@@ -24,7 +24,9 @@ public class CPModGroup {
             .icon(CPBlocks.PORTAL_FRAME::asStack)
             .displayItems((param, output) -> {
               output.acceptAll(Arrays.asList(
-                      CPBlocks.PORTAL_FRAME.asStack()
+                      CPBlocks.PORTAL_FRAME.asStack(),
+                      CPBlocks.PORTAL_CASING.asStack(),
+                      CPItems.ENTANGLEMENT.asStack()
               ));
             }).build());
 

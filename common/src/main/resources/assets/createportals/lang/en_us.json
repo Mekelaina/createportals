@@ -1,4 +1,6 @@
 {
   "itemGroup.createportals": "Create Portals",
-  "block.createportals.portal_frame": "Portal Frame"
+  "block.createportals.portal_frame": "Portal Frame",
+  "block.createportals.portal_casing":  "Portal Casing",
+  "item.createportals.entanglement": "Entanglement"
 }
